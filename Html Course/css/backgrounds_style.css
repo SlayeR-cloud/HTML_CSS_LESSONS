@@ -1,0 +1,36 @@
+/* Usually the background it's been repeated trough each
+element, to prevent this, add the no-repeat value to the
+repeat property */
+
+html {
+	color: white;
+	background-image: url("bg2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	/*
+	background-color: rgb(1, 255, 255);
+	background: linear-gradient(grey, black);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	*/
+}
+
+h1 {
+	background: linear-gradient(red, orange, yellow, green,
+		violet, blue);
+}
+
+p {
+	/* to right, to top, to left */
+	background: linear-gradient(to right, grey, black);
+}
+
+/* using the id declared on the container */
+
+#myContainer {
+	background: linear-gradient(to right, grey, black);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<!-- Internal CSS styling: We can target all instances of a certain tag that is used and it would be affected by whatever css property we listed there -->
+	<head>
+
+		<!-- Using External CSS Styling look: 
+			rel: relationship
+			type: media type (good practice)
+			href: hypertext reference to the document in this case -->
+		<link rel="stylesheet" type="text/css" href="css_begginer_style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Use the tag what you want to stylize ex: p (paragraph) and then the {}, also you can stylize some element with a specific id, check it out, by typing #idValue -->
+		<style>
+			#paragraph1{
+				background-color:blueviolet;
+				color:indianred;
+			}
+		</style>
+
+		<!-- There's also a similar attribute to "id" but its called "class" and this is reserved from an unique group of your webpage, take a look... 
+
+
+		You can also use something like: p.top{blabla} this specifies that you want to stylize any paragraph that is in top class 
+
+
+		You can also use the style tags for different items at the same time, ex: h1,p{blabla] this will stylize any h1 title and paragraph -->
+
+		<style>
+			.top{
+				background-color:white;
+				color:black;
+			}
+		</style>
+		<title>CSS First Steps</title>
+	</head>
+	<!-- In-Line CSS styling Example -->
+	<body style="background-color:black; color: green;">
+		<h1 class="top">CSS Demo</h1>
+		<p id="paragraph1">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		<p id="paragraph2" class="top">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</body>
+</html>

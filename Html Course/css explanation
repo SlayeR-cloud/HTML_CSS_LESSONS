@@ -1,0 +1,21 @@
+what is CSS?
+
+CSS is an acronym for cascading style sheets
+is used in conjunction with HTML, allows to customize
+the elements and layout (design) of a webpage.
+
+How to include?
+
+There are three ways...
+
+In-Line - Used for customize some few elements in the definition of itself
+Internal - We create a pair of styled elements in the head of our html document, usefl for single page websites.
+External - This is recognized as the best, it's about from link a css file to our html file to style 1 or all pages on a website. Useful when you make a website with a lot of pages.
+
+Rules for declaring css properties
+
+Ex: h1{color:green;}
+
+1. Element
+2. Property
+3. Value

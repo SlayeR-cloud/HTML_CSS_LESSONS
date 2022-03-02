@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lists Lesson</title>
+	</head>
+	<body>
+		<!-- HTML Lists
+
+		- Unordered List <ul></ul>
+		- Ordered List <ol></ol>
+		- Description List <dl></dl>
+		- Nested Lists 
+		-->
+
+		<!-- Unordered List: Use this when the orden doesn't matters, something like a grocery list, use the 
+			<li> tag for specify list items-->
+
+		<!-- Some CSS stuff to stylize a little bit the Unordered list, by default the type is disc-->
+		<h3>Grocery List (Pizza)</h3>
+		<ul style="list-style-type:circle">
+			<li>Bread Dough</li>
+			<li>Tomato Sauce</li>
+			<li>Cheese</li>
+			<li>Peppers</li> 
+		</ul>
+
+		<br>
+
+		<!-- Ordered List -->
+
+		<h3>My ToDo List</h3>
+		<!-- You can use A: ALPHABET ORDER, a: Lower Case alphabet order, 1: Numeric Order, I: Roman Numbers, i: Lower Case Roman Numbers, You have the capability specify the start of the item in the list, check this out-->
+		<ol type="1" start="10">
+			<li>Watch some random Youtube meme video</li>
+			<li>Go workout</li>
+			<li>Bake a pizza</li>
+		</ol>
+
+		<br>
+
+		<!-- Description List: Sometimes is refered as Definition List, is a list of terms or items with a description for each specific item-->
+
+		<h3>Web Dev Languages</h3>
+		<dl>
+			<!-- Definition Term (dt) -->
+			<dt>HTML</dt>
+			<!-- Description Details or Definition Details (DD) -->
+			<dd>- Adds structure to webpages</dd>
+			<dt>CSS</dt>
+			<dd>- Adds style to webpages</dd>
+			<dt>Javascript</dt>
+			<dd>- Adds functionality to webpages</dd>
+		</dl>
+
+		<br>
+
+		<!-- Nested List: Is a concept that is defined as a list inside of another list-->
+
+		<h3>Grocery List 2.0 (Pizza)</h3>
+		<ul style="list-style-type:disc;">
+			<li>Bread Dough</li>
+			<li>Tomato Sauce</li>
+			<li>Cheese</li>
+			<li>Toppings
+				<ul style="list-style-type:disc;">
+					<li>Peppers</li>
+					<li>Mushrooms</li>
+					<li>Pepperoni</li>
+				</ul>
+			</li>
+		</ul>
+		<br>
+	</body>
+</html>

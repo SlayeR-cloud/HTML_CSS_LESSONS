@@ -1,0 +1,64 @@
+html {
+	font-family: 'Sanchez';
+}
+
+/* Using the a class and the link pseudo class */
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: red;
+}
+
+button:hover {
+	background-color: #FF4529;
+	color: white;
+}
+
+/* the active pseudoclass applies to any html element that
+is clicked */
+button:active {
+	background-color: #D13B24;
+}
+
+/*
+li:first-child {
+	background-color: #93FF7D;
+}
+
+li:last-child {
+	background-color: darkcyan;
+}
+*/
+
+/* this will target a specific item from the list, specified
+in the parenthesis
+
+li:nth-child(2) {
+	background-color: darkcyan;
+}
+*/
+
+/* impar list items
+li:nth-child(odd) {
+	background-color: darkcyan;
+}
+
+   applied to even number items in the list
+li:nth-child(even) {
+	background-color: darkkhaki;
+}
+*/
+
+li:nth-child(3n+0){
+	/*
+		nth-child(an+b)
+		a = cycle size
+		n = counter (starts at 0)
+		b = offset value
+	*/
+	background-image: linear-gradient(to right, #FFF421, #FFFFFF);
+	opacity: 0.5;
+	border: 1px solid;
+}

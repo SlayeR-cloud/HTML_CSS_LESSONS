@@ -1,0 +1,51 @@
+html {
+	background-color: black;
+	font-family: arial;
+	color: white;
+}
+
+/* The flex-wrap property allows to compress or not the
+   items in the container, there's "nowrap": compress, "rap":
+   take up all the neccesary space in the container. The
+   flexboxes are useful because any new element that would be 
+   added, the container will give its own space*/
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: #444444;
+
+	/*
+	flex-direction: column-reverse;
+	width: 110px;
+	*/
+
+	/*
+	justify-content: flex-start;
+	justify-content: center;
+	justify-content: end;
+	justify-content: space-around;
+	*/
+	height: 400px;
+
+/*
+	align-items: flex-start;
+	align-items: flex-end;
+	align-items: center;
+*/
+
+/* Center something */
+	justify-content: center;
+	align-items: center;
+}
+
+.container div{
+	color: white;
+	height: 100px;
+	width: 100px;
+	background-color: #999999;
+	text-align: center;
+	line-height: 100px;
+	font-size: 50px;
+	margin: 5px;
+}

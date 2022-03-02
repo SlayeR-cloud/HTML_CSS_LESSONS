@@ -1,0 +1,34 @@
+/* There are a lot of different borders, take a look */
+
+/* If there are multiple assignments,
+ css will take the most recent one */
+p {
+	padding: 5px;
+	border-style: solid;
+	border-style: dashed;
+	border-style: dotted;
+	border-style: double;
+	border-style: ridge;
+	border-style: groove;
+	border-style: inset;
+	border-style: outset;
+	/* 1: North 2:Right 3: South 4: Left */;
+	border-width: 13px 13px 5px 1px;
+	border-color: #00FF00;
+	border-radius: 10px;
+}
+
+h1 {
+	/* Target a specific side of the border */
+	border-bottom-style: dotted;
+	border-top-style: dotted;
+	border-left-style: solid;
+	border-left-width: 10px;
+	border-left-color: #00FF00;
+	border-color: white;
+}
+
+body {
+	background-color: black;
+	color: white;
+}

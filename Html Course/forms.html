@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms</title>
+	</head>
+	<body>
+		<!-- form action="do_something.php" when the form is submit is sent to this page on the server-->
+		<form>
+			<!-- Now the label and the Input are connected -->
+			<label for="first_name"><b>First Name &nbsp</b></label>
+			<input type="text" id="first_name" name="first_name" placeholder="Dave">
+			<br>
+			<br>
+			<label for="last_name"><b>Last Name &nbsp</b></label>
+			<input type="text" id="last_name" name="last_name" placeholder="Navarro">
+			<br>
+			<br>
+
+			<!-- It is neccesary to put them the same name because they're from the same group, without the same name, you can choose multiple radio buttons at the same time -->
+			<label for="title"><b>Gender</b> &nbsp &nbsp &nbsp</label>
+			<label for="Male"><i>Male</i></label>
+			<input type="radio" value="Male" id="Male" name="title">
+			<label for="Female"><i>Female</i></label>
+			<input type="radio" value="Female" id="Female" name="title">
+			<br>
+			<br>
+			<label id="payment"><b>Payment Method &nbsp &nbsp</b></label>
+			<select id="payment">
+				<option value="visa">VISA</option>
+				<option value="mastercard">MASTERCARD</option>
+				<option value="bbva">BBVA</option>
+				<option value="bancolombia">BANCOLOMBIA</option>
+			</select>
+			<br>
+			<br>
+			<label for="email"><b>Email &nbsp &nbsp</b></label>
+			<input type="email" id="email" name="email" placeholder="someone@email.com">
+			<br>
+			<br>
+			<label for="birthday"><b>Birthday &nbsp &nbsp</b></label>
+			<input type="date" id="birthday" name="birthday"
+			min="2000-01-01">
+			<br>
+			<br>
+			<label for="quantity"><b>Quantity &nbsp &nbsp</b></label>
+			<input type="number" id="quantity" name="quantity" min="1" max="99">
+			<br>
+			<br>
+			<label for="phone"><b>Phone &nbsp &nbsp</b></label>
+			<input type="tel" id="phone" name="phone">
+			<br>
+			<br>
+			<label for="password"><b>Password &nbsp &nbsp</b></label>
+			<input type="password" id="pass" name="pass" maxlength="12"> Max Lenght: 12 characters
+			<br>
+			<br>
+			<label for="slider"><b>Rate Us &nbsp &nbsp</b></label><i>1</i>
+			<input type="range" step="25" value="50"><i>5</i>
+			<br>
+			<br>
+			<label for="subscribe"><b>Subscribe &nbsp &nbsp</b></label>
+			<input type="checkbox" id="subscribe" name="subscribe">
+			<br>
+			<br>
+			<label for="myfile"><b>Upload a file &nbsp &nbsp</b></label>
+			<input type="file" id="myfile" name="myfile" accept=".txt">
+			<br>
+			<br>
+			<input type="reset">&nbsp &nbsp &nbsp &nbsp
+			<input type="submit">
+		</form>
+	</body>
+</html>

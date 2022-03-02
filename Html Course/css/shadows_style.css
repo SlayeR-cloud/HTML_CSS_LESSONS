@@ -1,0 +1,27 @@
+html {
+	background-color: black;
+	color: white;
+	font-family: 'Sanchez';
+}
+
+h1 {
+	border: 1px solid;
+	width: 100%;
+	padding: 25px;
+	background-color: #111111;
+	border-color: orange;
+	text-shadow: 1px 0px 4px yellow, 2px 0px 4px red;
+	/* 
+		horizontal (px)
+		vertical (px)
+		blur (px)
+		color (name or rgb or hex)
+	*/
+	box-shadow: 10px 10px 5px #666666; 
+	/* 
+		horizontal (px)
+		vertical (px)
+		blur (px)
+		color (name or rgb or hex)
+	*/
+}

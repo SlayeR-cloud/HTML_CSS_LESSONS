@@ -1,0 +1,64 @@
+/* Transformations: is a css property that can be used to 
+apply 2 dimensional or 3 dimensional transformation of a base
+element, increase or decrease the scaling of an element, 
+rotate... etc*/
+
+html {
+	background-color: black;
+	color: white;
+	font-family: arial;
+}
+
+p {
+	width: 200px;
+	background: red;
+	font-size: 40px;
+	text-align: center;
+	margin: 0px;
+	color: black;
+}
+
+#p1 {
+
+}
+
+#p2 {
+	/*Translation*/
+
+	/*transform: translateX(50px);*/
+	/*transform: translateY(50px);*/
+	/*transform: translate(50px, 50px);*/
+	
+	/*Rotation*/
+
+	/*transform: rotateX(180deg);*/
+	/*transform: rotateY(180deg);*/
+	/*transform: rotateZ(180deg);*/
+	/*transform: rotate(180deg);*/
+
+	/*Scale*/
+
+	/*transform: scaleX(2);*/
+	/*transform: scaleY(2);*/
+	/*transform: scale(2,2);*/
+
+
+	/*Skew*/
+
+	/*transform: skewX(45deg);*/
+	/*transform: skewY(45deg);*/
+
+	/*Matrix
+
+	Values...
+
+	1: scaleX()
+	2: skewY()
+	3: skewX()
+	4: scaleY()
+	5: translateX()
+	6: translateY()
+	*/
+
+	transform: matrix(0.5, 1, 1, 0.5, 50, 100);
+}
